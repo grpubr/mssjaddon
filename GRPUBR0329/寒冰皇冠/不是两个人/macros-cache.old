@@ -1,0 +1,10 @@
+VER 3 0100000000000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 燃烧
+/use 13
+/cast 燃烧
+END
+VER 3 0100000000000001 "1" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/petattack
+/cast 冰冻术
+END

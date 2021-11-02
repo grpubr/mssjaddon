@@ -1,0 +1,51 @@
+VER 3 0100000000000018 " " "132248"
+/dismount [mounted]
+/use [flyable] 茶色驭风者;迅捷美酒节赛羊;
+END
+VER 3 0100000000000019 " " "INV_Misc_QuestionMark"
+#showtooltip
+/use 速效药膏
+/use [button:1]16;[button:2]17;[button:3]18;
+/click StaticPopup1Button1
+END
+VER 3 010000000000001A " " "INV_Misc_QuestionMark"
+#showtooltip
+/cast [help]嫁祸诀窍;[help,@targettarget]嫁祸诀窍;[help,@focus]嫁祸诀窍;[@mouseover]嫁祸诀窍;
+END
+VER 3 010000000000001B " " "INV_Misc_QuestionMark"
+#showtooltip
+/use 麻痹药膏
+/use [button:1]16;[button:2]17;[button:3]18;
+/click StaticPopup1Button1
+END
+VER 3 010000000000001C " " "INV_Misc_QuestionMark"
+#showtooltip
+/use 减速药膏
+/use [button:1]16;[button:2]17;[button:3]18;
+/click StaticPopup1Button1
+END
+VER 3 010000000000001D " " "INV_Misc_QuestionMark"
+#showtooltip
+/use 致命药膏
+/use [button:1]16;[button:2]17;[button:3]18;
+/click StaticPopup1Button1
+END
+VER 3 010000000000001E " " "INV_Misc_QuestionMark"
+#showtooltip
+/use 致伤药膏
+/use [button:1]16;[button:2]17;[button:3]18;
+/click StaticPopup1Button1
+END
+VER 3 0100000000000022 " " "136103"
+/cleartarget
+/target 月光蓓蕾
+END
+VER 3 010000000000001F " du" "132104"
+/脚本 m={"致命药膏","速效药膏"} n={20,20}for i=1,#m do t=n[i]-GetItemCount(m[i])if t>0 then for j=1,99 do if GetMerchantItemInfo(j):find(m[i])then for k=1,ceil(t/20) do BuyMerchantItem(j,floor(t/20)~=0 and 20 or t)t=t-20;end break;end end end end
+END
+VER 3 0100000000000020 "11" "644389"
+/run local l = {43730,43731,43732,43733,43734,43735,43736,43737,43760,43761}; for idx = 1,#l do print(idx .. "-->" ..  tostring(IsQuestFlaggedCompleted(l[idx])));end
+END
+VER 3 0100000000000021 "买毒药" "132104"
+/脚本 m={"减速药膏","麻痹药膏","致伤药膏"} n={20,20}for i=1,#m do t=n[i]-GetItemCount(m[i])if t>0 then for j=1,99 do if GetMerchantItemInfo(j):find(m[i])then for k=1,ceil(t/20) do BuyMerchantItem(j,floor(t/20)~=0 and 20 or t)t=t-20;end break;end end end end
+END

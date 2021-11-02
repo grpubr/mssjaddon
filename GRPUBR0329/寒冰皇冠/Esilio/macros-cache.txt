@@ -1,0 +1,42 @@
+VER 3 0100000000000003 " " "INV_Misc_QuestionMark"
+/cast [flyable]迅捷黃色雙足飛龍;恐懼戰馬
+END
+VER 3 0100000000000007 " " "INV_Misc_QuestionMark"
+#showtooltip 魔化護甲
+/cast [button:1]魔化護甲
+/cast [button:2]惡魔護甲
+END
+VER 3 0100000000000006 " " "INV_Misc_QuestionMark"
+/cast [help]吞噬魔法;[target=player]吞噬魔法
+END
+VER 3 0100000000000005 " " "INV_Misc_QuestionMark"
+#showtooltip 制造法术石
+/use 特效法术石
+/use 16 
+/cast [button:2]制造法术石
+/click StaticPopup1Button1  
+END
+VER 3 0100000000000002 " " "INV_Misc_QuestionMark"
+/cast [pet:恶魔卫士]巨斧投掷;[pet:魅魔]诱惑(特殊技能);[pet:虚空行者]牺牲(特殊技能);[pet:地狱猎犬]法术封锁(特殊技能);[pet:破坏魔]迷魅;[pet:眼魔]眼棱爆炸;[pet:虚空领主]缴械;[pet:愤怒卫士]巨斧投掷(特殊技能)
+END
+VER 3 0100000000000008 " " "INV_Misc_QuestionMark"
+/cast [pet:恶魔卫士]追杀;[pet:魅魔]鞭打;[pet:虚空行者]受难;[pet:地狱猎犬]吞噬魔法;
+/cast 恶魔掌控
+END
+VER 3 0100000000000009 " " "Spell_Magic_PolymorphPig"
+/KISS
+END
+VER 3 010000000000000A " " "INV_Misc_QuestionMark"
+#showtooltip
+/use 灵魂石
+/cast [btn:2]制造灵魂石
+END
+VER 3 010000000000000B " " "INV_MISC_QUESTIONMARK"
+/cast 魔能鞭笞(特殊技能)
+END
+VER 3 0100000000000004 " 10" "INV_Misc_QuestionMark"
+/run DEFAULT_CHAT_FRAME:AddMessage("\124cffffff00\124Hachievement:3917:"..strsub(UnitGUID("player"),3)..":1:9:5:9:4294967295:4294967295:4294967295:4294967295\124h[十字軍的呼喚(10人)]\124h\124r")
+END
+VER 3 0100000000000001 " 寶寶攻擊" "Ability_GhoulFrenzy"
+/petattack
+END

@@ -1,0 +1,37 @@
+VER 3 0100000000000006 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [harm] 审判
+/cast [target=mouseover,help] 殉道者之光
+/cast 殉道者之光
+END
+VER 3 0100000000000002 " " "INV_Misc_QuestionMark"
+#showtooltip
+/cast 复仇之怒
+/use 14
+END
+VER 3 0100000000000003 " " "INV_Misc_QuestionMark"
+#showtooltip
+/cancelaura 圣盾术
+/cast 圣盾术
+END
+VER 3 0100000000000007 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 圣洁鸣钟(格里恩)
+/use 13
+/cast 圣洁鸣钟(格里恩)
+END
+VER 3 0100000000000001 " " "INV_Misc_QuestionMark"
+/dismount
+/use [flyable] 华丽的飞毯;紫色骷髏戰馬
+END
+VER 3 0100000000000005 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [harm]十字军打击
+/cast 神圣震击
+END
+VER 3 0100000000000004 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast 光环掌握
+/raid 钢条已开，a死对面吧
+/raid 钢条已开，a死对面吧
+/raid 钢条已开，a死对面吧
+END

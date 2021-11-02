@@ -1,0 +1,32 @@
+VER 3 0100000000000004 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,harm,nodead] 净化术; [@mouseover,help] [help]净化灵魂;[harm,nodead]净化术;净化灵魂
+END
+VER 3 0100000000000005 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,harm,nodead]风剪 ; [@mouseover,help] [help]大地之盾;[harm,nodead]风剪;大地之盾
+END
+VER 3 0100000000000006 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,harm,nodead] 冰霜震击;[harm,nodead]冰霜震击; 治疗之雨
+END
+VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,harm,nodead] 熔岩爆裂; [@mouseover,help] [help]治疗波;[harm,nodead]熔岩爆裂;治疗波
+END
+VER 3 0100000000000007 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,harm,nodead] 闪电链; [@mouseover,help] [help]治疗链;[harm,nodead]闪电链;治疗链
+END
+VER 3 0100000000000008 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast  [@mouseover,help,party] [help]始源之潮;始源之潮
+END
+VER 3 0100000000000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,harm,nodead] 闪电箭; [@mouseover,help] [help]治疗之涌;[harm,nodead]闪电箭;治疗之涌
+END
+VER 3 0100000000000003 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,harm,nodead] 烈焰震击; [@mouseover,help] [help]激流;[harm,nodead]烈焰震击;激流
+END

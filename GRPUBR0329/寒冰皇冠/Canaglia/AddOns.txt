@@ -1,0 +1,15 @@
+ClassicFCT: disabled
+UnitFramesPlus: disabled
+UnitFramesPlus_Options: disabled
+DBM-StatusBarTimers: enabled
+DBM-Core: disabled
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled
+TrinketMenu: disabled
+ItemRackOptions: enabled
+ItemRack: enabled
+OmniBar: enabled
+EN_UnitFrames: enabled
+KayrCovenantMissions: disabled
+TomTom: disabled
+Details: disabled

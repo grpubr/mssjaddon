@@ -1,0 +1,68 @@
+VER 3 0000000000000054 " " "INV_Misc_QuestionMark"
+#showtooltip 凜風衝擊
+/petattack
+/cast 符文打擊
+/cast 凜風衝擊
+END
+VER 3 0000000000000055 " " "134400"
+/Y 呀美蝶，呀美蝶，呀美蝶
+END
+VER 3 0000000000000056 " " "INV_Misc_QuestionMark"
+#showtooltip 啃食
+/cast 啃食
+END
+VER 3 0000000000000057 " " "132095"
+/Y 呀美蝶，我獸不鳥啦
+END
+VER 3 0000000000000058 " " "134400"
+/dismount [mounted]
+/script local m=GetZoneText() if (m=="達拉然" or m=="奧核之眼") and (GetSubZoneText()~="卡薩斯平臺") then CallCompanion("mount", 7);end
+/use [flyable] 奪日者龍鷹;紫色骷髏戰馬
+END
+VER 3 0000000000000059 " " "132094"
+/kiss
+END
+VER 3 000000000000005A " " "136048"
+/RA ←←←←←←←←←←←←←←←
+/RA ↓--------        +++++++++  ↑
+/RA ↓--------     王王王 ++++++++++↑
+/RA ↓→→→→→→→→→→→→→→　
+END
+VER 3 000000000000005B " " "135739"
+/Y 求吃求喝求美女
+/Y 求車求房求包養
+END
+VER 3 000000000000005C " " "132093"
+/run DEFAULT_CHAT_FRAME:AddMessage("\124cffffff00\124Hachievement:4585:"..strsub(UnitGUID("player"),3)..":1:3:11:10:4294967295:4294967295:4294967295:4294967295\124h[『寒冰看守者』拓拉梵(10人)]\124h\124r")
+END
+VER 3 000000000000005D " " "134400"
+/cast 腐蚀术
+END
+VER 3 000000000000005E " " "134400"
+script ChatFrame_RemoveMessageGroup(ChatFrame1, "CHANNEL")
+END
+VER 3 000000000000005F " " "134400"
+/p 跑跑跑跑
+END
+VER 3 0000000000000065 " " "136072"
+/run LoadAddOn("Blizzard_WeeklyRewards"); WeeklyRewardsFrame:Show()
+END
+VER 3 0000000000000066 " " "136056"
+/script if not ce or not le or GetTime()-le>10 then ce=0;end;le=GetTime();ce=ce+1;SendChatMessage( GetMinimapZoneText().."发现"..ce.."名敌人!", "raid")
+END
+VER 3 0000000000000060 " /RECOUNT 顯示" "132147"
+/RECOUNT 顯示
+END
+VER 3 0000000000000061 "1" "975739"
+/script local index = 1; while (1) do local name, _, _, _, _, duration, _, _, _ = UnitAura("player",index); if (not name) then break; end index = (index + 1); if(duration >0) then SendChatMessage(name.." "..duration) end end
+END
+VER 3 0000000000000062 "強力" "135875"
+/run DEFAULT_CHAT_FRAME:AddMessage("\124cffffff00\124Hachievement:3917:"..strsub(UnitGUID("player"),3)..":1:9:5:9:4294967295:4294967295:4294967295:4294967295\124h[十字軍的呼喚(10人)]\124h\124r")
+END
+VER 3 0000000000000063 "箱子" "252179"
+/run DEFAULT_CHAT_FRAME:AddMessage("\124cffffff00\124Hachievement:4606:"..strsub(UnitGUID("player"),3)..":1:5:11:10:4294967295:4294967295:4294967295:4294967295\124h[赤紅大廳(25人)]\124h\124r")
+END
+VER 3 0000000000000064 "糖" "134400"
+/showtooltip 魔化治療石
+/use 魔化治療石
+END

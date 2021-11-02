@@ -1,0 +1,15 @@
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled
+ClassicFCT: disabled
+Diminish: disabled
+KayrCovenantMissions: disabled
+ItemRack: disabled
+OmniBar: disabled
+OmniCD: disabled
+ZenTracker: disabled
+TrinketMenu: disabled
+TomTom: disabled
+EN_UnitFrames: disabled
+Details: enabled
+MeetingStone: enabled
+Bagnon: disabled

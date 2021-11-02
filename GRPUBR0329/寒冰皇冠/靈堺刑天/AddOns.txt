@@ -1,0 +1,6 @@
+UnitFramesPlus: disabled
+UnitFramesPlus_Options: disabled
+TrinketMenu: enabled
+KayrCovenantMissions: disabled
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled

@@ -1,0 +1,14 @@
+UnitFramesPlus: disabled
+UnitFramesPlus_Options: disabled
+TrinketMenu: disabled
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled
+ClassicFCT: disabled
+OmniBar: disabled
+KayrCovenantMissions: disabled
+ItemRackOptions: enabled
+MeetingStone: enabled
+RareScanner: enabled
+TomTom: disabled
+Bagnon: disabled
+CovenantMissionHelper: disabled
